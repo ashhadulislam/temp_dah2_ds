@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>District wise constituency viz</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+
+    <style>
+        table {
+            font-family: arial, sans-serif;
+            border-collapse: collapse;
+            width: 100%;
+        }
+
+        td, th {
+            border: 1px solid #dddddd;
+            text-align: left;
+            padding: 8px;
+        }
+</style>
+
+
+</head>
+<body>
+<div class="container">
+  <h2>Find the co ordinates</h2>
+  <form action="/submit_form1" method = "POST">
+    
+
+     <div class="form-group">
+      <label for="state_sel">Enter the first letters of each word of the decrypted string:</label>
+      <input type="text" class="form-control" id="usr" name="wordkey">
+    </div> 
+
+    <button type="submit" class="btn btn-default">Submit</button>
+  </form>
+</div>
+
+    <div class="container">
+      {% block content %}
+      {% endblock %}
+    </div>
+
+</body>
+</html>
