@@ -24,7 +24,7 @@ def give_graph():
 
     print("key you put is ",wordkey," the key from constants is ",c.match_key)
     if wordkey == c.match_key:
-        whole_div="<div>Congratulations!! You nailed it.</br>This is where you need to go<br><img class='img-responsive' src='./static/img/vibe.jpg'>"
+        whole_div="<div>Congratulations!! You nailed it.</br>This is where you need to go<br><img class='img-responsive' src='./static/img/vibe2.jpg'>"
         whole_div=whole_div+"</br>Be there at 3:30pm</div>"
     else:
         whole_div="<div>Just not there yet.</br>Try again</div>"
