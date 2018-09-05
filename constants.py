@@ -1,2 +1,2 @@
 match_key="7"
-map_url="https://goo.gl/maps/DswyTLKKyJq"
+loc_img="./static/img/vibe2.jpg"
