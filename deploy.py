@@ -35,9 +35,8 @@ def give_graph():
             whole_div="<div>Are you running for the busiest employee of the year award? </br>Newsflash!! There's no such prize here...</br>Try again</div>"
         elif int(wordkey)<=13:
             whole_div="<div>Are you sure you are not superman? </br>Go back to metropolis you work monster...</br>Try again</div>"
-        
-
-        whole_div="<div>Just not there yet.</br>Try again</div>"
+        else:
+            whole_div="<div>Just not there yet.</br>Try again</div>"
     return render_template('home.html',div_graph_placeholder=Markup(whole_div))
 
 
