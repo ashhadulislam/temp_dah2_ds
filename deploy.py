@@ -29,7 +29,7 @@ def give_graph():
     else:
         if int(wordkey)<=3:
             whole_div="<div>Thats all you do at office?</br>Try again</div>"
-        elif int(wordkey)<=5:
+        elif int(wordkey)<=6:
             whole_div="<div>Seriously!!! How do you fill your timesheet?</br>Try again</div>"
         elif int(wordkey)<=10:
             whole_div="<div>Are you running for the busiest employee of the year award? </br>Newsflash!! There's no such prize here...</br>Try again</div>"
